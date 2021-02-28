@@ -1,0 +1,36 @@
+{
+  
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    
+    "name": "listfield-extension-client-side-solution",
+    "title":"Basic example of field extension",
+    "id": "5fc25069-2297-4bef-873e-f2aee40beca4",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "8a1a9ab6-9192-42c4-99fa-94d9922da031",
+        "version": "1.0.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/listfield-extension.sppkg"
+  }
+}

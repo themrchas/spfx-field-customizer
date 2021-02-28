@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://chasdev.sharepoint.com/sites/chas/Lists/ListField/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "46a358a6-3bb8-4c59-b964-7944e604193b",
+          "properties": {
+            "sampleText": "Value Butthead: "
+          }
+        },
+        "Title": {
+           "id": "46a358a6-3bb8-4c59-b964-7944e604193b",
+          "properties": {
+            "sampleText": "Value Beavis: "
+          }
+        }
+
+
+
+      }
+    },
+    
+    "helloWorld": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "46a358a6-3bb8-4c59-b964-7944e604193b",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
