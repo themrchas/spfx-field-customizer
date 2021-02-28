@@ -6,6 +6,8 @@ Demonstration of a field customizer extension.  The solution creates a
 site column, SPFxPercentage, that has the extension 'attached'.  When the site column is added 
 to a list, the intended code is applied to the value of each SPFxPercentage entry in the list.
 
+GitHub repo https://github.com/themrchas/spfx-field-customizer.git
+
 
 
 [picture of the solution in action, if possible]
